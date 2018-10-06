@@ -4,6 +4,14 @@
   <title>Home Page</title>
   <link rel="stylesheet" type= "text/css" href="homestyle.css">
   <script src="my_script.js"></script>
+  <script>
+  function show_topic()
+  {
+ var x = document.getElementById("demo");
+ x.style.fontSize = "25px";
+ x.style.color = "red";
+}
+</script>
 </head>
 
 <body>
@@ -15,7 +23,7 @@
   <li><a href="town.html">My town</a>
   <li><a href="links.html">Links</a>
 </ul>
-<div>
+
 <!-- Main content -->
 <h1>My first styled page</h1>
 
@@ -25,9 +33,9 @@
 And it has links, even if they don't go
 anywhere&hellip;
 
-<p>There should be more here, but I don't know
+<p id='demo'>There should be more here, but I don't know
 what yet. </p>
-<button onclick="get_values();">Click here</button>
+<button onclick="show_topic();">Click here</button> </button>
 
 <!-- Sign and date the page, it's only polite! -->
 <address>Made 5 April 2004<br>
