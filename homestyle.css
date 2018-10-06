@@ -1,8 +1,9 @@
 body {
    color: purple;
-   background-color: #d8da3d
-    padding-left: 11em
+   background-color: #d8da3d;
+   padding-left: 11em;
  }
+
 h1 {
 font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif }
 ul.navbar {
@@ -12,7 +13,7 @@ ul.navbar {
   position: absolute;
   top: 2em;
   left: 1em;
-  width: 9em }
+  width: 9em; }
 
 ul.navbar li {
   background: white;
