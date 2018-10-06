@@ -19,7 +19,8 @@ ul.navbar li {
   padding: 0.3em;
   border-right: 1em solid black }
 ul.navbar a {
-  text-decoration: none }
+  text-decoration: none
+}
 a:link {
   color: blue }
 a:visited {
@@ -28,3 +29,4 @@ address {
   margin-top: 1em;
   padding-top: 1em;
   border-top: thin dotted }
+#my_question {background-color: silver}
