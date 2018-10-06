@@ -1,7 +1,8 @@
 body {
    color: purple;
-   padding-left: 11em;
-   background-color: #d8da3d }
+   background-color: #d8da3d
+    padding-left: 11em
+ }
 h1 {
 font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif }
 ul.navbar {
