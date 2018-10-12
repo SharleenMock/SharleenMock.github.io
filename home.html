@@ -29,13 +29,19 @@
 
 <p>Welcome to my first ever page! I am new to programming and I tried my best. Please treat me kindly.
 
-<p>It lacks images, but at least it has style.
-And it has links, even if they don't go
-anywhere&hellip;
+<p>It is very simple, but to me it was very complicated. Press the first button to continue.&hellip;
 
-<p id='demo'>There should be more here, but I don't know
-what yet. </p>
+<p id='demo'>Are you ready? </p>
 <button onclick="show_topic();">Click here</button> </button>
+
+<p> Here we go!
+  </p>
+<button onclick="revealMessage()">Click me!</button>
+	<div id="hiddenMessage" style="display:none">
+		<p>Don't expect too much from me. </p>
+    <p> Time for the countdown! Continue clicking the next button till it gets to 0!
+      </p>
+		<button id="countDownButton" onclick="countDown()">10</button>
 
 <!-- Sign and date the page, it's only polite! -->
 <address>Made with blood, sweat, and (mostly) tears<br>

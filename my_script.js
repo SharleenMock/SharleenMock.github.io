@@ -1,10 +1,13 @@
-function addition(a, b) {
-a = parseInt(a); b = parseInt(b);
-c = a + b;
-return c;
+function revealMessage() {
+	document.getElementById("hiddenMessage").style.display = 'block';
 }
-function get_values() {
-var a = prompt("Enter first number:");
-var b = prompt("Enter second number:");
-var z = addition(a,b); alert("The answer is:" + z);
+
+function countDown() {
+	var currentVal = document.getElementById("countDownButton").innerHTML;
+	var newVal = 0;
+	if (currentVal > 0) {
+		newVal = currentVal - 1;
+	}
+
+	document.getElementById("countDownButton").innerHTML = newVal;
 }
