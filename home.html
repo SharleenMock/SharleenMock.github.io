@@ -3,6 +3,7 @@
 <head>
   <title>Home Page</title>
   <link rel="stylesheet" type= "text/css" href="./style/homestyle.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <script src="./script/my_script.js"></script>
   <script>
   function show_topic()
@@ -10,7 +11,7 @@
  var x = document.getElementById("demo");
  x.style.fontSize = "25px";
  x.style.color = "red";
-}
+}>
 </script>
 </head>
 
@@ -32,11 +33,11 @@
 <p>It is very simple, but to me it was very complicated. Press the first button to continue.&hellip;
 
 <p id='demo'>Are you ready? </p>
-<button onclick="show_topic();">Click here</button> </button>
+<button type="button" class="btn btn-primary" onclick="show_topic();">Click here</button> </button>
 
 <p> Here we go!
   </p>
-<button onclick="revealMessage()">Click me!</button>
+<button type="button" class="btn btn-primary" onclick="revealMessage()">Click me!</button>
 	<div id="hiddenMessage" style="display:none">
 		<p>Don't expect too much from me.&hellip; </p>
     <p> Time for the countdown! See what happens when it gets to 0!
